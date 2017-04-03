@@ -28,6 +28,11 @@ p.instructions {
     font-weight: bold;
 }
 
+p.image{
+  padding: 6px;
+  text-align: center;
+}
+
 form{
    font-family: 'Slabo 27px', serif;
 

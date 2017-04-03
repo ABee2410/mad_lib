@@ -38,5 +38,6 @@ function makeStory() {
   document.getElementById('paragraph1').innerHTML = paragraph1;
    document.getElementById('paragraph2').innerHTML = paragraph2;
     document.getElementById('paragraph3').innerHTML = paragraph3;
+    document.getElementById('image').innerHTML = "<img src='hobbits.jpg'/>"
 
 }
