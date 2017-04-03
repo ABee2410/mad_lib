@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<!--
+This page makes a Mad Lib story. For an example of a similar page, go here:
+
+http://www.redkid.net/madlibs/
+-->
+
+<html>
+<head>
+<title>My MadLib</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+</head>
+
+<body>
+
+<h1>My MadLib</h1>
+
+<div class="data">
+
+    <p class="instructions">Enter a value into each field. Then press 'Make Story' to read the story you made.</p>
+
+    <!--
+    Request that the user type in at least 15 words in the form below. Ask for the
+    words by part of speach (noun, verb, adjective, adverb, proper noun, etc.) You
+    can also ask for things like places. Use field ids like noun1, noun2, verb1, etc.
+
+    Then make a button with the text "Make Story". The Make Story button should call
+    your makeStory() function which gets all of the form data and then builds and
+    displays your finished story.
+    -->
+
+    <form>
+      Form of Literature:<br><input type="text" id='lit1'> <br>
+      Form of Literature:<br><input type="text" id='lit2'> <br>
+      Place:<br><input type="text" id='place'> <br>
+      Noun:<br><input type="text" id='noun1'> <br>
+      Adjective:<br><input type="text" id='adj1'> <br>
+      Adjective:<br><input type="text" id='adj2'> <br>
+      Noun:<br><input type="text" id='noun2'> <br>
+      Form of Literature:<br><input type="text" id='lit3'> <br>
+      Adjective:<br><input type="text" id='adj3'> <br>
+      Plural Creature:<br><input type="text" id='pluralcreature'> <br>
+      Verb ending in -ed:<br><input type="text" id='verbendinged'> <br>
+      Body Part:<br><input type="text" id='bodypart'> <br>
+      Name:<br><input type="text" id='name'> <br>
+      Plural Noun:<br><input type="text" id='pluralnoun'> <br>
+      Verb ending in -ing:<br><input type="text" id='verbendinging'> <br>
+      Adjective:<br><input type="text" id='adj4'> <br>
+      Emotion:<br><input type="text" id='emotion1'> <br>
+      Adjective:<br><input type="text" id='adj5'> <br>
+      Verb:<br><input type="text" id='verb'> <br>
+      Emotion:<br><input type="text" id='emotion2'> <br>
+     <input type="button" onclick="makeStory()" value="Submit">
+    </form>
+
+</div>
+
+<div class="story">
+    <h2 id="title"></h2>
+
+    <p id="paragraph1">Complete the form to the left to see a story.</p>
+    <p id="paragraph2"></p>
+    <p id="paragraph3"></p>
+
+</div>
+
+<!-- don't forget to link to the story_maker.js file here. -->
+<script type="text/javascript" src="story_maker.js"></script>
+
+</body>
+</html>

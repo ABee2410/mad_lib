@@ -1,0 +1,52 @@
+body {
+    background-color: #aee1b8;
+    padding: 2%;
+    line-height: 1.75;
+}
+
+h1 {
+    border-bottom: 3px solid #46442d;
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
+    color: #46442d;
+    margin: 0 0 20px 0;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+h2 {
+  font-family: 'Sacramento', cursive;
+    text-align: center;
+}
+
+p {
+font-family: 'Slabo 27px', serif;
+
+}
+
+p.instructions {
+    font-weight: bold;
+}
+
+form{
+   font-family: 'Slabo 27px', serif;
+
+}
+
+div {
+    background-color: #FFFFFF;
+    border: 3px solid #888888;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    float: left;
+    padding: 10px;
+}
+
+div.data {
+    margin-right: 2%;
+    width: 25%
+}
+
+div.story {
+    width: 73%;
+}
