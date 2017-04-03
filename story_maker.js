@@ -39,6 +39,6 @@ function makeStory() {
    document.getElementById('paragraph2').innerHTML = paragraph2;
     document.getElementById('paragraph3').innerHTML = paragraph3;
     document.getElementById('image').innerHTML = "<img src='hobbits.jpg'/>";
-    document.getElementById('form').style.cssText = 'background-color: #aee1b8; color: #333; border: #aee1b8;'
+    document.getElementById('form').style.cssText = 'background-color: #aee1b8; color: #333; border: #aee1b8;';
 
 }
